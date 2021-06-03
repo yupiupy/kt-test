@@ -1,0 +1,79 @@
+html{
+	font-size:15px;
+}
+#app {
+		font-family: Avenir, Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		color: #2c3e50;
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+		margin-top: 60px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+img{
+	border:none;
+}
+#form{
+	margin: 3rem;
+}
+#form > label{
+	margin: 2rem 0 .2rem .2rem;
+	display: flex;
+	font-size: 1.2rem;
+
+}
+#form > input,
+#form > select,
+#form > button{
+	width: 100%;
+	max-width: 500px;
+	height: 3rem;
+	display: flex;
+	padding: .5rem 1.5rem;
+	border-radius: .5rem;
+	font-size: 1.2rem;
+	background: #fff;
+	border: solid 1px #333;
+	outline: none;
+}
+#form > input:first-child{
+	margin-top: 0;
+}
+#form > input:focus{
+	box-shadow: #283593 0 0 .5rem .1rem;
+	border: none;
+	background: #fff;
+}
+#form > button{
+	margin-top: 2rem;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #fff;
+	background: #283593;
+	border: none;
+}
+#form > button:hover{
+	cursor: pointer;
+	background: #1A237E;
+}
